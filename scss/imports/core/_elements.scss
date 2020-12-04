@@ -1,0 +1,180 @@
+img {
+    display:block;
+    margin:auto;
+    max-width: 100%;
+}
+.back-to-all {
+    a {
+        float:right;
+        text-decoration:none;
+        color:$text-cl;
+        font-size:14px;
+        i {
+            display: inline-block;
+            margin-left: 30px;
+            position: relative;
+            vertical-align: middle;
+            transform: rotate(90deg);
+            transition:all .4s;
+            left:0;
+            top:-2px;
+            @include maxW(767px) {
+                margin-left:15px;
+            }
+        }
+        &:hover {
+            i{
+                left:-14px;
+            }
+        }
+    }
+}
+.studio-item-name {
+    background:$yellow-bg-cl;
+    text-align: center;
+    height: 100%;
+    p{
+        font-size:12px;
+        text-transform: uppercase;
+        color:$text-cl;
+        padding:20px;
+    }
+    span {
+        font-size:60px;
+        font-family: DIN;
+        display: block;
+    }
+    &.item-ml {
+        margin-left: 25px;
+        max-width: 135px;
+    }
+}
+.btn {
+    display:flex;
+    justify-content: center;
+    position: relative;
+    &::before {
+        content: "";
+        width: 1px;
+        height: 14px;
+        background: #000;
+        top: 50%;
+        left: 56%;
+        transform: translate(-50%,-50%);
+        position: absolute;
+    }
+    &.mr-bt {
+        margin-bottom: 30px;
+    }
+    span {
+        padding:0 20px;
+    }
+    &-prev,&-next {
+        align-items: center;
+        display:flex;
+        cursor: pointer;
+    }
+    .arrow-prev {
+        transform:rotate(90deg);
+        position: relative;
+        left:0;
+        transition: .3s ease;
+    }
+    .arrow-next {
+        transform:rotate(-90deg);
+        position: relative;
+        left:0;
+        transition: .3s ease;
+    }
+    &-prev:hover {
+        .arrow-prev{
+            left:-5px;
+        }
+    }
+    &-next:hover {
+        .arrow-next{
+            left:5px;
+        }
+    }
+}
+.ml {
+    margin-left:25px;
+}
+.mb {
+    margin-bottom: 30px;
+}
+.mt {
+    margin-top: 50px;
+}
+.btn-logo {
+    // width: 100%;
+    &-text {
+        max-width: 100px;
+        background: $text-title;
+        border-radius: 4px;
+        height: 100px;
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+        transition: background 0.8s ease;
+        span {
+            text-align: center;
+            align-items: center;
+            font-size: 24px;
+            font-family: PXB;
+            color: $yellow-bg-cl;
+            text-transform: uppercase;
+            transition: color 1s cubic-bezier(0.2,0.6,0.35,1);
+        }
+    }
+}
+.arrow-down {
+    display: block;
+    margin:40px auto 20px auto;
+    animation: down 1s ease-in-out infinite;
+}
+.locksroll {
+    position: fixed;
+    overflow: hidden;
+}
+
+.btn1{
+    display: inline-block;
+    margin-top: 40px;
+    padding:18px 40px;
+    border-radius: 10px;
+    text-decoration: none;
+    transition: .6s;
+    box-shadow: 2px 4px 9px 1px rgba(0,0,0,0.5);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: box-shadow, transform;
+    transition-property: box-shadow, transform;
+    @include text(16px, rb, normal, $white-cl, uppercase);
+    // background-image: linear-gradient(90deg, #30CEBC 40%,  #1588CE 95%);
+    background-image: linear-gradient(to right, #32D4BA, #24B0C4, #1588CE);
+    &:hover, &:focus, &:active{
+        // transform: translateX(15px);
+        box-shadow: 0 0 20px rgba(0,0,0,0.5);
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
+    }
+}
+
+.btn2{
+    display: inline-block;
+    margin-top: 20px;
+    padding:13px 35px;
+    border-radius: 10px;
+    border: 1px solid $blue-cl;
+    text-decoration: none;
+    box-shadow: 2px 4px 9px 1px rgba(0,0,0,0.5);
+    transition: .6s ;
+    background-size: 200%;
+    @include text(16px, rb, normal, $blue-cl, uppercase);
+    &:hover{
+        background-image: linear-gradient(to right, #32D4BA, #24B0C4, #1588CE);
+        color: $white-cl;
+        border: none;
+    }
+}

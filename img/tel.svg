@@ -1,0 +1,19 @@
+<svg id="Group_3096" data-name="Group 3096" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: none;
+      }
+
+      .cls-2 {
+        stroke: #1588ce;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+      }
+    </style>
+  </defs>
+  <path id="Path_1269" data-name="Path 1269" class="cls-1" d="M0,0H20V20H0Z"/>
+  <path id="Path_1270" data-name="Path 1270" class="cls-2" d="M4.667,4H8L9.667,8.167,7.583,9.417a9.167,9.167,0,0,0,4.167,4.167L13,11.5l4.167,1.667V16.5A1.667,1.667,0,0,1,15.5,18.167,13.333,13.333,0,0,1,3,5.667,1.667,1.667,0,0,1,4.667,4" transform="translate(-0.5 -0.667)"/>
+  <line id="Line_10" data-name="Line 10" class="cls-2" y1="4.167" x2="4.167" transform="translate(12.5 3.333)"/>
+  <path id="Path_1271" data-name="Path 1271" class="cls-2" d="M16,4h3.333V7.333" transform="translate(-2.667 -0.667)"/>
+</svg>

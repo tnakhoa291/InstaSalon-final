@@ -1,0 +1,18 @@
+<svg id="Group_3098" data-name="Group 3098" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: none;
+      }
+
+      .cls-2 {
+        stroke: #1588ce;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+      }
+    </style>
+  </defs>
+  <path id="Path_1272" data-name="Path 1272" class="cls-1" d="M0,0H20V20H0Z"/>
+  <rect id="Rectangle_329" data-name="Rectangle 329" class="cls-2" width="15" height="11.667" rx="2" transform="translate(2.5 4.167)"/>
+  <path id="Path_1273" data-name="Path 1273" class="cls-2" d="M3,7l7.5,5L18,7" transform="translate(-0.5 -1.167)"/>
+</svg>
